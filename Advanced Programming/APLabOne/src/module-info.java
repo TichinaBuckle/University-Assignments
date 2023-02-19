@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author alexa
- *
- */
-module APLabOne {
-}
