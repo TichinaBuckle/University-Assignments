@@ -66,4 +66,30 @@ public class ProductActions {
 
         return products;
     }
+
+    // getters and setters for the Statement, ResultSet, and Connection attributes
+    public static Statement getStatement() {
+        return statement;
+    }
+
+    public static void setStatement(Statement statement) {
+        ProductActions.statement = statement;
+    }
+
+    public static ResultSet getResultSet() {
+        return resultSet;
+    }
+
+    public static void setResultSet(ResultSet resultSet) {
+        ProductActions.resultSet = resultSet;
+    }
+
+    public static Connection getConnection() {
+        return connection;
+    }
+
+    public static void setConnection(Connection connection) {
+        ProductActions.connection = connection;
+    }
+}
 }
